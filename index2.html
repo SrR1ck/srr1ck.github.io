@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Declaração de Amor</title>
+	<style>
+		body {
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			color: #333;
+			background-color: #f5f5f5;
+			text-align: center;
+			line-height: 1.6;
+			padding: 50px 0;
+			margin: 0;
+		}
+		
+        h1 {
+		    color: #d62828;
+		    font-size: 3em;
+		    margin-bottom: 20px;
+		    text-shadow: 1px 1px #ccc;
+            animation: pulse 2s infinite;
+	    }
+
+        @keyframes pulse{
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+	
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: justify;
+        }
+        
+        p em {
+            font-style: italic;
+            color: #d62828;
+        }
+        
+        p strong {
+            font-weight: bold;
+            color: #d62828;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            border: 5px solid #d62828;
+            animation: fade-in 1s ease-out forwards;
+            opacity: 0;
+        }
+
+        @keyframes fade-in {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        /* Adicionar regras para dispositivos móveis */
+        @media (max-width: 767px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            p {
+                font-size: 1em;
+                max-width: 600px;
+            }
+
+            .container {
+                max-width: 700px;
+            }
+        }
+	
+</style>
+
+</head>
+<body>
+	<div class="container">
+		<h1>Minha Amada Noiva</h1>
+		<p>Hoje estamos comemorando 4 anos e 10 meses juntos. Parece que foi ontem que nos conhecemos, mas agora não consigo mais imaginar minha vida sem você.</p>
+		<p>Sua beleza me encanta e seu sorriso ilumina o meu dia. Com você ao meu lado, sou o homem mais feliz do mundo.</p>
+		<p>Quero passar o resto da minha vida fazendo você feliz e realizando nossos sonhos juntos. Você é a minha alma gêmea e eu te amo mais do que tudo nesta vida.</p>
+		<p><strong>Com todo o meu amor,</strong></p>
+		<p><em>Seu eterno apaixonado, Henrique ❤</em></p>
+	</div>
+</body>
+</html>
